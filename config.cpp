@@ -33,7 +33,6 @@ Config::Config(){
 }
 
 void Config::parse_arg(int argc, char*argv[]){
-    # 这里添加了注释
     int opt;
     const char *str = "p:l:m:o:s:t:c:a:";
     while ((opt = getopt(argc, argv, str)) != -1)
